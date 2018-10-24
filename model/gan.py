@@ -3,7 +3,7 @@ import cudarray as ca
 import deeppy as dp
 import deeppy.expr as ex
 
-from util import ScaleGradient, WeightedParameter
+from .util import ScaleGradient, WeightedParameter
 
 
 class GAN(dp.base.Model, dp.base.CollectionMixin):

@@ -5,7 +5,7 @@ from skimage import color
 import cudarray as ca
 import deeppy as dp
 
-from util import img_transform
+from .util import img_transform
 
 
 def sample_img_augment_params(translation_sigma=1.0, scale_sigma=0.01,
